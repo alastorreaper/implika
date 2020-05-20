@@ -83,6 +83,7 @@ public class Vehiculo {
        Vehiculo arrayobjetos[]=new Vehiculo[100];
 
        int v=1;
+       System.out.println("segundo cambio");
        for(int i=0;i<v;i++){
             System.out.print("introduzca matriculal: ");
             String matricula;
@@ -158,7 +159,7 @@ public class Vehiculo {
         }
         System.out.println("");
         System.out.println("el numero total de vehiculos de marca Opel es de: "+Vehiculo.mostrarOpel());
-        System.out.println("este es el primer cambio");        
+
     }
      public String getMatricula(){
 
